@@ -2,7 +2,7 @@
 {
     public interface IDatabaseSettings
     {
-        string PersonCollectionName { get; set; }
+        string PeoplesCollectionName { get; set; }
         string AnimalsCollectionName { get; set; }
         string ConnectionString { get; set; }
         string DatabaseName { get; set; }
